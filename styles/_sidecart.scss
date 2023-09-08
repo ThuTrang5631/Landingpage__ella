@@ -1,0 +1,49 @@
+.sidecart {
+  .sidecart__container {
+    min-width: 420px;
+  }
+
+  .sidecart__number {
+    margin-bottom: 27px;
+  }
+
+  .sidecart__desc {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .sidecart__policy {
+    margin-bottom: 40px;
+  }
+
+  .sidecart__emptydesc {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .sidecart__btncheckout {
+    background-color: $color5;
+    color: $color6;
+
+    &:hover {
+      background-color: $color18;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  .sidecart {
+    .sidecart__container {
+      min-width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .sidecart {
+    .sidecart__container {
+      max-width: 250px;
+      min-width: unset;
+    }
+  }
+}

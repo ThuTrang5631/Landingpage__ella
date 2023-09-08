@@ -1,0 +1,108 @@
+@import "./variable";
+@import "./header";
+@import "./banner";
+@import "./subbanner";
+@import "./newproduct";
+@import "./instagram";
+@import "./footer";
+@import "./signin";
+@import "./sidecart";
+@import "./recentltyview";
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-landingpage {
+  padding-inline: 60px;
+}
+
+.d-none {
+  display: none;
+}
+
+.btn-hover {
+  &:hover {
+    background-color: $color18 !important;
+  }
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 400;
+  align-items: end;
+}
+
+@media screen and (min-width: 1880px) {
+  .container-landingpage {
+    padding-inline: 352px 356px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  .container-landingpage {
+    padding-inline: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-lg) {
+  .d-none-lg {
+    display: none;
+  }
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam theme</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="marquee">
+                <div class="marquee__content">
+                    <ul class="list-inline">
+                        <li class="header__topcontent ">
+                            <img src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                        <li class="header__topcontent d-none-lg">
+                            <img class="d-none-lg" src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="d-none-lg header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="header__topcontent d-none-lg">
+                            <img class="d-none-lg" src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="d-none-lg header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                        <li class="header__topcontent">
+                            <img src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="header__topcontent d-none-lg">
+                            <img class="d-none-lg" src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="d-none-lg header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                        <li class="header__topcontent">
+                            <img src="./assets/icon-thunder.png" alt="icon thunder">
+                            <p class="header__topdesc">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                                <strong>$1/MONTH</strong>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__fixed">
+            <div class="container-landingpage header__bottom">
+                <div class="header__bottomlogo">
+                    <img src="./assets/logo.png" alt="logo">
+                </div>
+                <div class="header__bottomright">
+                    <p class="header__bottompolicyship">FREE SHIPPING ON ALL ORDERS. NO MINIMUM PURCHASE</p>
+                    <ul class="header__bottomlist">
+                        <li class="header__bottomitem">
+                            <button id="js-btn-shoppingcart" class="header__bottonbtn">
+                                <img src="./assets/icon-cart.png" alt="icon cart">
+                                <span class="d-none-lg">Shopping Cart</span>
+                            </button>
+                            <span class="header__bottomnumber">0</span>
+                        </li>
+                        <li class="header__bottomitem">
+                            <button class="header__bottonbtn">
+                                <img src="./assets/icon-favorite.png" alt="icon favorite">
+                                <span class="d-none-lg">My wish list</span>
+                            </button>
+                        </li>
+                        <li class="header__bottomitem">
+                            <span>
+                                <button id="js-btn-signin" class="header__bottomsignin">Sign In or </button>
+                                <button>Create an account</button></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__categories">
+                <nav class="container-landingpage header__containnav navbar navbar-expand-lg">
+                    <div class="header__nav container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">NEW IN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">TREND</a>
+                                </li>
+                                <li class="nav-itemother nav-item">
+                                    <a class="nav-link" href="#">COLLECTIONS</a>
+                                    <img src="./assets/badge_sale.png" alt="badge sale">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LOOKBOOK</a>
+                                </li>
+                                <li class="nav-itemother nav-item">
+                                    <a class="nav-link" href="#">DEMO</a>
+                                    <img src="./assets/badge_new.png" alt="badge new">
+                                </li>
+                                <li class="nav-itemother nav-item">
+                                    <a class="nav-link" href="#">SHOP INSTAGRAM</a>
+                                    <img src="./assets/badge_hot.png" alt="badge instagram">
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        BLOG
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Blog Default Layout</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog with Small Image and Left
+                                                Sidebar</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Blog Mansory</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Full-width</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Post with LookBook</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Post with Product Widget</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BRANDS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQS</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="banner">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="banner__firstslide carousel-item active">
+                        <img src="./assets/slide1.jpg" class="d-block w-100" alt="image slide 1">
+                        <div class="banner__contentfirstslide carousel-caption d-none d-md-block">
+                            <h1 class="banner__firstslidetitle">COSMOPOLIS</h1>
+                            <p class="line"></p>
+                            <p class="desc">Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus
+                                meleifend menean
+                                diverra loremous.</p>
+                            <button class="btn-hover">SHOP NOW</button>
+                        </div>
+                    </div>
+                    <div class="banner__secondslide carousel-item">
+                        <img src="./assets/slide2.jpg" class="d-block w-100" alt="image slide 2">
+                        <div class="banner__contentsecondslide carousel-caption d-none d-md-block">
+                            <img src="./assets/contentslide2.png" alt="content slide second">
+                            <button class="btn-hover">SHOP NOW</button>
+                        </div>
+                    </div>
+                    <div class="banner__thirdslide carousel-item">
+                        <img src="./assets/slide3.jpg" class="d-block w-100" alt="image slide 3">
+                        <div
+                            class="banner__contentthirdslide banner__contentfirstslide carousel-caption d-none d-md-block">
+                            <h1 class="banner__firstslidetitle">LOREMOUS</h1>
+                            <p class="line"></p>
+                            <p class="desc">Quisquemos sodales suscipit tortor ditaemcos condimentum lacus meleifend
+                                menean diverra lorem comodous..</p>
+                            <button class="btn-hover">SHOP THE COLLECTION</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container-landingpage subbanner">
+            <ul class="subbanner__list">
+                <li class="subbaner__item">
+                    <img src="./assets/subbanner1.jpg" alt="subbaner 1">
+                    <h4>EDITOR’S PICK</h4>
+                </li>
+                <li class="subbaner__item">
+                    <img src="./assets/subbanner2.jpg" alt="subbaner 2">
+                    <h4>SHOES</h4>
+                </li>
+                <li class="subbaner__item">
+                    <img src="./assets/subbanner3.jpg" alt="subbaner 3">
+                    <h4 class="line">ACCESSORIES</h4>
+                </li>
+            </ul>
+        </section>
+        <section class="container-landingpage newproduct">
+            <div class="newproduct__intro">
+                <hr>
+                <h4 class="newproduct__introtitle">NEW ARRIVALS</h4>
+                <hr>
+            </div>
+            <div class="newproduct__viewall">
+                <a>View All</a>
+            </div>
+            <div class="newproduct__listcard">
+                <div class="newproduct__card">
+                    <div class="newproduct__cardtop">
+                        <img class="newproduct__image" src="./assets/newproduct1.jpg" alt="new product 1">
+                        <button class="newproduct__iconfavorite">
+                            <img src="./assets/icon-favoriteproduct.png" alt="icon favorite">
+                        </button>
+                    </div>
+                    <div class="newproduct__cardbottom">
+                        <h5 class="newproduct__desc">SOLDING</h5>
+                        <p class="newproduct__desc intro">Naminos Dementus A Milance - Pattern </p>
+                        <p class="newproduct__price">$86.00 - $99.00</p>
+                        <div class="newproduct__listvariables">
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="blue"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="gray"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="gray-light"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="newproduct__card">
+                    <div class="newproduct__cardtop">
+                        <img class="newproduct__image newproduct__imageaddtocart" src="./assets/newproduct2.jpg"
+                            alt="new product 2">
+                        <button class="newproduct__iconfavorite">
+                            <img src="./assets/icon-favoriteproduct.png" alt="icon favorite">
+                        </button>
+                        <div class="newproduct__wrapbtn">
+                            <button class="newproduct__btnaddtocart btn-hover">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="newproduct__cardbottom">
+                        <h5 class="newproduct__desc">TOMORROW</h5>
+                        <p class="newproduct__desc intro">Dinterdum Pretium Condimento - Pattern </p>
+                        <p class="newproduct__price">$139.00 - $189.00</p>
+                        <div class="newproduct__listvariables">
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="black"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="gray-light"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="blue"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="green"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="yellow"></span>
+                                </span>
+                            </button>
+                            <button class="newproduct__addvariable">+1</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="newproduct__card">
+                    <div class="newproduct__cardtop">
+                        <img class="newproduct__image newproduct__imagesize" src="./assets/newproduct3.jpg"
+                            alt="new product 3">
+                        <button class="newproduct__iconfavorite">
+                            <img src="./assets/icon-favoriteproduct.png" alt="icon favorite">
+                        </button>
+                        <button class="newproduct__iconpreview">
+                            <img src="./assets/icon-preview.png" alt="icon preview">
+                        </button>
+                        <button class="newproduct__iconclose">
+                            <img src="./assets/icon-close.png" alt="icon close">
+                        </button>
+                        <div class="newproduct__size">
+                            <p class="newproduct__sizechoose">Size: <span>XS</span> </p>
+                            <ul class="newproduct__tabsize">
+                                <li class="newproduct__tabitem">
+                                    <button>XS</button>
+                                    <span></span>
+                                </li>
+                                <li class="newproduct__tabitem">
+                                    <button>S</but>
+                                </li>
+                                <li class="newproduct__tabitem">
+                                    <button>M</button>
+                                </li>
+                                <li class="newproduct__tabitem">
+                                    <button>L</button>
+                                </li>
+                                <li class="newproduct__tabitem">
+                                    <button>XL</button>
+                                </li>
+                                <li class="newproduct__tabitem">
+                                    <button>2X</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="newproduct__wrapbtn">
+                            <button class="newproduct__submit newproduct__btnaddtocart btn-hover">SUBMIT</button>
+                        </div>
+                    </div>
+                    <div class="newproduct__cardbottom">
+                        <h5 class="newproduct__desc">PAUL SMITH</h5>
+                        <p class="newproduct__desc intro">Magnis Darturien Metro Lacinis - Black</p>
+                        <p class="newproduct__price">$86.00</p>
+                        <div class="newproduct__listvariables">
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="white"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="newproduct__card">
+                    <div class="newproduct__cardtop">
+                        <img class="newproduct__image" src="./assets/newproduct4.jpg" alt="new product 4">
+                        <button class="newproduct__iconfavorite">
+                            <img src="./assets/icon-favoriteproduct.png" alt="icon favorite">
+                        </button>
+                    </div>
+                    <div class="newproduct__cardbottom">
+                        <h5 class="newproduct__desc">DONATELLO</h5>
+                        <p class="newproduct__desc intro">Loremous Saliduar A Cosmopolito - Pattern </p>
+                        <p class="newproduct__price">$86.00 - $99.00</p>
+                        <div class="newproduct__listvariables">
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="gray"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="gray-light"></span>
+                                </span>
+                            </button>
+                            <button>
+                                <span class="newproduct__variable">
+                                    <span class="green"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="newproduct__wrapbtnshowmore">
+                <button class="newproduct__showmore newproduct__btnaddtocart btn-hover">SHOW MORE</button>
+            </div>
+        </section>
+        <section class="container-landingpage instagram newproduct">
+            <div class="instagram__title">
+                <img src="./assets/icon-instagram.png" alt="icon instagram">
+                <h3>#ELLA ON INSTAGRAM</h3>
+            </div>
+            <p class="instagram__desc">Phasellus lorem malesuada ligula pulvinar commodo maecenas</p>
+            <div class="instagram__wraplistcard">
+                <div class="instagram__containercarousel container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="./assets/instagram1.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="./assets/instagram2.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="./assets/instagram3.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="./assets/instagram4.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram__viewgallery">
+                <button class="instagram__btnview newproduct__btnaddtocart btn-hover">VIEW GALELERY</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container-landingpage footer__top">
+            <div class="footer__topcontent">
+                <ul class="footer__topitem">
+                    <li class="footer__toptitle">SHOP</li>
+                    <li><a href="#" class="footer__topdesc">New In</a></li>
+                    <li><a href="#" class="footer__topdesc">Women</a></li>
+                    <li><a href="#" class="footer__topdesc">Men</a></li>
+                    <li><a href="#" class="footer__topdesc">Shoes</a></li>
+                    <li><a href="#" class="footer__topdesc">Bags & Accessories</a></li>
+                    <li><a href="#" class="footer__topdesc">Top Brands</a></li>
+                    <li><a href="#" class="footer__topdesc">Sale & Special Offers</a></li>
+                    <li><a href="#" class="footer__topdesc">Lookbook</a></li>
+                </ul>
+                <ul class="footer__topitem">
+                    <li class="footer__toptitle">INFORMATION</li>
+                    <li><a href="#" class="footer__topdesc">About</a></li>
+                    <li><a href="#" class="footer__topdesc">Customer Service</a></li>
+                    <li><a href="#" class="footer__topdesc">Reward Program</a></li>
+                    <li><a href="#" class="footer__topdesc">Shipping & Returns</a></li>
+                    <li><a href="#" class="footer__topdesc">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__topdesc">Terms & Conditions</a></li>
+                    <li><a href="#" class="footer__topdesc">Blog</a></li>
+                </ul>
+                <ul class="footer__topitem">
+                    <li class="footer__toptitle">CUSTOMER SERVICE</li>
+                    <li><a href="#" class="footer__topdesc">Search Terms</a></li>
+                    <li><a href="#" class="footer__topdesc">Advanced Search</a></li>
+                    <li><a href="#" class="footer__topdesc">Orders and Returns</a></li>
+                    <li><a href="#" class="footer__topdesc">Contact Us</a></li>
+                    <li><a href="#" class="footer__topdesc">Theme FAQs</a></li>
+                    <li><a href="#" class="footer__topdesc">Consultant</a></li>
+                    <li><a href="#" class="footer__topdesc">Store Locations</a></li>
+                </ul>
+            </div>
+            <ul class="footer__topitem footer__topcontainform">
+                <li class="footer__toptitle">NEWSLETTER SIGN UP</li>
+                <li class="footer__topdesc">Sign up for exclusive updates, new arrivals & insider only discounts
+                </li>
+                <li class="footer__form">
+                    <form>
+                        <input class="footer__topdesc" type="email" placeholder="Email Address">
+                        <button class="footer__topbtn">SUBMIT</button>
+                    </form>
+                </li>
+                <li class="footer__topcontact">
+                    <a href="#"><img src="./assets/icon-facebook.png" alt="icon facebook"></a>
+                    <a href="#"><img src="./assets/icon-twitter.png" alt="icon twitter"></a>
+                    <a href="#"><img src="./assets/icon-instagramfooter.png" alt="icon instagram"></a>
+                    <a href="#"><img src="./assets/icon-pinterest.png" alt="icon pinterest"></a>
+                    <a href="#"><img src="./assets/icon-snapchat.png" alt="icon snapchat"></a>
+                </li>
+            </ul>
+        </section>
+        <section class="container-landingpage footer__bottom">
+            <ul class="footer__bottomcopyright">
+                <li class="footer__topdesc">© 2014 Ella Demo. All Rights Reserved. Powered by Shopify.</li>
+                <li class="footer__topdesc">Shopify Themes by HaloThemes.com</li>
+            </ul>
+            <div class="footer__bottompayment">
+                <a href="#"><img src="./assets/visa.png" alt="logo visa"></a>
+                <a href="#"><img src="./assets/mastercard.jpg" alt="logo mastercard"></a>
+                <a href="#"><img src="./assets/americanexpress.png" alt="logo americanexpress"></a>
+                <a href="#"><img src="./assets/discovercard.png" alt="discovercard"></a>
+                <a href="#"><img src="./assets/paypal.png" alt="logo paypal"></a>
+                <a href="#"><img src="./assets/JCB.png" alt="logo JCB"></a>
+            </div>
+        </section>
+    </footer>
+
+    <section class="recentlyview">
+        <button id="js-open-recentlyview" class="recentlyview__iconarrow">
+            <img src="./assets/icon-arrow.png" alt="icon-arrow">
+        </button>
+        <div id="js-recentlysection" class="recentlyview__menu d-none">
+            <div class="recentlyview__cart">
+                <img src="./assets/icon-cart.png" alt="icon cart">
+                <span class="recentlyview__cartnumber">0</span>
+            </div>
+            <div class="recentlyview__content ">
+                <h5 class="recentlyview__title">RECENTLY VIEWED</h5>
+                <div class="recentlyview__product">
+                    <button class="recentlyview__productbtn"><img src="./assets/icon-arrowtop.png"
+                            alt="icon top product"></button>
+                    <img class="recentlyview__productimage" src="./assets/newproduct1.jpg" alt="product ">
+                    <img class="recentlyview__productimage" src="./assets/newproduct4.jpg" alt="product ">
+                    <button class="recentlyview__productbtn recentlyview__productbtn--bottom"><img
+                            src="./assets/icon-arrowbutton.png" alt="icon bottom product"></button>
+                </div>
+            </div>
+            <div class="recentlyview__bottom">
+                <button id="js-return-top" class="recentlyview__bottombtn">
+                    <img src="./assets/icon-arrowtopother.png" alt="return top page icon">
+                    <span>Top</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="js-signin" class="signin backdrop d-none">
+        <div class="signin__container">
+            <button id="js-closesignin" class="signin__iconclose">
+                <img src="./assets/icon-close.png" alt="icon close">
+            </button>
+            <h5 class="signin__title">Sign In</h5>
+            <form class="signin__form">
+                <div class="signin__wrapinput">
+                    <label>Email Address <span>*</span></label>
+                    <input type="email">
+                </div>
+                <div class="signin__wrapinput">
+                    <label>Password <span>*</span></label>
+                    <input type="password">
+                </div>
+                <div class="signin__wrapbtn">
+                    <button class="sign__btn signin__btn--login btn-hover">LOGIN</button>
+                </div>
+                <a class="signin__forgotpassword" href="#">Forgot your password?</a>
+                <div class="signin__wrapbtn">
+                    <a class="sign__btn sign__btn--signup btn-hover">CREATE ACCROUNT</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="js-sidecart" class="signin sidecart backdrop d-none">
+        <div class="signin__container sidecart__container">
+            <button id="js-closesidecart" class="signin__iconclose">
+                <img src="./assets/icon-close.png" alt="icon close">
+            </button>
+            <h5 class="signin__title">Shopping Cart</h5>
+            <p class="sidecart__desc sidecart__number">3 Items</p>
+            <p class="sidecart__desc sidecart__policy">Free shipping for all orders over $800.00!</p>
+            <p class="sidecart__desc sidecart__emptydesc">Your cart is empty</p>
+            <div class="sidecart__wrapbtn">
+                <button class="sign__btn sidecart__btncheckout">CHECKOUT</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./js/instagram_slider_card.js"></script>
+<script src="./js/main.js"></script>
+
+</html>

@@ -1,0 +1,114 @@
+.recentlyview {
+  position: fixed;
+  top: 35%;
+  right: 6%;
+  z-index: 300;
+
+  .recentlyview__iconarrow {
+    width: 30px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: -28px;
+    background-color: $color6;
+    padding: 8px;
+    border: 0.5px solid $color17;
+    border-right: 0;
+  }
+
+  .recentlyview__menu {
+    width: 100px;
+    background-color: $color6;
+    padding-block: 20px;
+    border-radius: 5px;
+    border: 0.5px solid $color17;
+    border-top-left-radius: 0;
+  }
+
+  .recentlyview__cart {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 19px;
+    border-bottom: 0.5px solid $color10;
+    padding-inline: 10px;
+    margin-bottom: 19px;
+
+    img {
+      width: 15px;
+    }
+  }
+
+  .recentlyview__cartnumber {
+    border-radius: 50%;
+    background-color: $color1;
+    color: $color5;
+    text-align: center;
+    width: 23px;
+    position: absolute;
+    right: 25px;
+    top: -7px;
+  }
+
+  .recentlyview__title {
+    padding-inline: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .recentlyview__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10px;
+    flex-direction: column;
+    padding-bottom: 18px;
+    border-bottom: 0.5px solid $color10;
+  }
+
+  .recentlyview__productbtn {
+    width: 12px;
+    margin-bottom: 20px;
+  }
+
+  .recentlyview__productimage {
+    max-width: 52px;
+    margin-bottom: 20px;
+  }
+
+  .recentlyview__productbtn--bottom {
+    margin-bottom: 0;
+  }
+
+  .recentlyview__content {
+    margin-bottom: 18px;
+  }
+
+  .recentlyview__bottom {
+    display: flex;
+    justify-content: center;
+    padding-inline: 10px;
+  }
+
+  .recentlyview__bottombtn {
+    img {
+      width: 9px;
+      margin-right: 9px;
+    }
+
+    span {
+      font-size: 12px;
+      color: $color5;
+    }
+  }
+}
+
+@media screen and (min-width: 1880px) {
+  .recentlyview {
+    top: 45%;
+  }
+}
