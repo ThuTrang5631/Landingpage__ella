@@ -1081,9 +1081,24 @@
   color: #232323;
 }
 
+@media screen and (max-width: 1440px) {
+  .recentlyview .recentlyview__productimage {
+    margin-bottom: 10px;
+    max-width: 30px;
+  }
+  .recentlyview .recentlyview__menu {
+    padding-block: 15px;
+  }
+  .recentlyview .recentlyview__productbtn {
+    margin-bottom: 10px;
+  }
+  .recentlyview .recentlyview__product {
+    padding-bottom: 15px;
+  }
+}
 @media screen and (min-width: 1880px) {
   .recentlyview {
-    top: 45%;
+    top: 50%;
   }
 }
 img {
